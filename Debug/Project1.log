@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(43,31): warning C4316: 'camera': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(121,35): warning C4316: 'skybox': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(124,26): warning C4316: 'ufo': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(128,35): warning C4316: 'planet': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(131,29): warning C4316: 'moon': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(136,48): warning C4316: 'planet': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(140,49): warning C4316: 'planet': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(143,47): warning C4316: 'planetRing': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(148,49): warning C4316: 'planet': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(151,44): warning C4316: 'satellite': object allocated on the heap may not be aligned 16
+C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Project1\main.cpp(154,41): warning C4316: 'particle': object allocated on the heap may not be aligned 16
+  Project1.vcxproj -> C:\Users\Merit\Documents\School\ComputerGraphics\CG - Final - MeriEskelinen - 7.4\CGFinalMeri Eskelinen\Debug\Project1.exe
