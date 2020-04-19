@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\camera">
+      <UniqueIdentifier>{3bd78504-b079-4dfe-8c43-74ff8327f9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objectheaders">
+      <UniqueIdentifier>{285010d0-3c60-4372-a597-f5a1d7b0b551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\texture">
+      <UniqueIdentifier>{fa2a9e4e-e990-4fcc-85aa-8f11ffb298c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objectsources">
+      <UniqueIdentifier>{d1ce89cd-6202-467e-8ffa-1b838e4a9482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\texture">
+      <UniqueIdentifier>{601470fc-7c09-4663-8b0d-09483ef3c6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{96043d46-453b-4a74-ae57-5788c844183c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{f622febf-b435-4b98-b763-e26dc7382420}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="planet.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="teapot.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="moon.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="ufo.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="planetRing.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="asteroid.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="asteroidManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="satellite.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Source Files\objectsources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="planet.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="teapot.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="moon.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ufo.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="planetRing.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="asteroid.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="asteroidManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="satellite.h">
+      <Filter>Header Files\objectheaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragmentshaderskybox.fsh">
+      <Filter>Source Files\shaders</Filter>
+    </Text>
+    <Text Include="vertexshaderskybox.vsh">
+      <Filter>Source Files\shaders</Filter>
+    </Text>
+    <Text Include="fragmentshaderphong.fsh">
+      <Filter>Source Files\shaders</Filter>
+    </Text>
+    <Text Include="vertexshader.vsh">
+      <Filter>Source Files\shaders</Filter>
+    </Text>
+    <Text Include="fragmentshaderlambert.fsh">
+      <Filter>Source Files\shaders</Filter>
+    </Text>
+    <Text Include="fragmentshaderprimitive.fsh">
+      <Filter>Source Files\shaders</Filter>
+    </Text>
+    <Text Include="vertexshaderprimitive.vsh">
+      <Filter>Source Files\shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
